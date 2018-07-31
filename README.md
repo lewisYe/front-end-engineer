@@ -1,7 +1,7 @@
 # About Something Web
-一.CSS篇
+# CSS篇
 
-1.什么是盒模型
+## 什么是盒模型
   - 盒模型分为标准盒模型 width = content  和怪异盒模型(ie下) width = content + padding + border 
   - 通过box-sizing 可以切换  content-box padding-box boder-box 
   
