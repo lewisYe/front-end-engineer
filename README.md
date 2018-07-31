@@ -75,5 +75,97 @@
         2.visibility = hidden 页面会保留原来的位置 元素隐藏 如果有onclick事件不会被触发
         3.display = none  页面不会保留原来的位置 元素隐藏 如果有onclick不会触发
     
-    
+### CSS3新特性
+        1.新增选择器 例如伪类选择器:nth-of-type 、:nth-of-child 等
+        2.新增css动画相关的 transition、transform、animation等 都有浏览器兼容问题
+            transition 属性
+                1.transition-property:规范过渡应用css名称
+                2.transition-duration:规定过渡时间
+                3.transition-dealy:过渡延迟
+                4.transition-timing-function:过渡效果的时间曲线 默认 ease 还有linear、ease-in、ease-out、ease-in-out和cubic-bezier等
+                5.缩写 transition:property duration timing-function dealy 例如 transition: width 1s linear 2s;
+                
+            transform 属性
+                1. 旋转 rotate 
+                    transform:rotate(45deg) 顺时针旋转45度。 单位deg为度的意思，正数为顺时针旋转，负数为逆时针旋转
+                2. 缩放 scale
+                    用法：transform: scale(0.5)  或者  transform: scale(0.5, 2);
+                    一个参数时：表示水平和垂直同时缩放该倍率
+                    两个参数时：第一个参数指定水平方向的缩放倍率，第二个参数指定垂直方向的缩放倍率。
+                3. 倾斜 skew
+                    transform: skew(30deg)  或者 transform: skew(30deg, 30deg);
+                    一个参数时：表示水平方向的倾斜角度；
+                    两个参数时：第一个参数表示水平方向的倾斜角度，第二个参数表示垂直方向的倾斜角度。
+                4. 移动 translate
+                    transform: translate(45px)  或者 transform: translate(45px, 150px);
+                    一个参数时：表示水平方向的移动距离；
+                    两个参数时：第一个参数表示水平方向的移动距离，第二个参数表示垂直方向的移动距离。
+                5.  基准点 transform-origin
+                    在使用transform方法进行文字或图像的变形时，是以元素的中心点为基准点进行的。使用transform-origin属性，可以改变变形的基准点。
+                    用法：transform-origin: 10px 10px;
+                    共两个参数，表示相对左上角原点的距离，单位px
+                    第一个参数表示相对左上角原点水平方向的距离，第二个参数表示相对左上角原点垂直方向的距离；
+                    其中第一个参数也可以指定为left、center、right，第二个参数也可以指定为top、center、bottom。
+                    
+                 这四种变形方法顺序可以随意，但不同的顺序导致变形结果不同，原因是变形的顺序是从左到右依次进行。
+            
+            animation 属性
+                1. animation-name 规定需要绑定到选择器的 keyframe 名称
+                2. animation-duration 规定完成动画所花费的时间，以秒或毫秒计。
+                3. animation-timing-function 规定动画的速度曲线。
+                4. animation-delay 	规定在动画开始之前的延迟。
+                5. animation-iteration-count 规定动画应该播放的次数。
+                6. animation-direction 规定是否应该轮流反向播放动画。
+                
+                
+                @-webkit-keyframes anim1 { 
+                   0% { 
+                        opacity: 0; 
+                        font-size: 12px; 
+                   } 
+                   100% { 
+                        opacity: 1; 
+                        font-size: 24px; 
+                   } 
+                } 
+                .anim1Div { 
+                   -webkit-animation-name: anim1 ; 
+                   -webkit-animation-duration: 1.5s; 
+                   -webkit-animation-iteration-count: 4; 
+                   -webkit-animation-direction: alternate; 
+                   -webkit-animation-timing-function: ease-in-out; 
+                }
+                
+            transition 和 animation 区别 transition需要触发事件
+
+        3. @font-face特性
+            例如 @font-face {
+                    font-family: myFirstFont;
+                    src: url('Sansation_Light.ttf'),
+                         url('Sansation_Light.eot'); /* IE9+ */
+                }
+                div{
+                    font-family:myFirstFont;
+                }
+        4. border-radius border-shadow border-images
+        5. 渐变 gradient
+        
+### 单行省略号 和 多行省略号
+    1.单行
+        overflow:hidden
+        text-overflow:ellipsis
+        white-space:nowrap
+    2.多行
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        移动端浏览器绝大部分是WebKit内核的，所以该方法适用于移动端；
+        -webkit-line-clamp 用来限制在一个块元素显示的文本的行数,这是一个不规范的属性(unsupported WebKit property)它没有出现在CSS规范草案中。
+        display: -webkit-box 将对象作为弹性伸缩盒子模型显示 。
+        -webkit-box-orient 设置或检索伸缩盒对象的子元素的排列方式 。
+        text-overflow: ellipsis 以用来多行文本的情况下，用省略号“…”隐藏超出范围的文本。
+        
+ 
       
