@@ -21,13 +21,13 @@
     overflow 不为visiable
     
 ### 清浮动
-  1.overflowe：hidden
-  2.父级定义伪类:after 和 zoom  (推荐)
+  ####### overflowe：hidden
+  ####### 父级定义伪类:after 和 zoom  (推荐)
     div:after{display:block,content:'',clear:both,visibility:hidden,height:0}
     div{zoom:1}
-  3.在结尾处添加空div标签clear:both
-  4.父级定高
-  5.父级一起浮动
+  ####### 在结尾处添加空div标签clear:both
+  ####### 父级定高
+  ####### 父级一起浮动
   
 ### Flex 布局
   1.dispaly:flex 子元素的float、clear和vertical-align属性将失效
