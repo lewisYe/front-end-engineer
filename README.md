@@ -41,7 +41,7 @@
     9.flex-basis属性：定义了在分配多余的空间，项目占据的空间。
     10.flex：是flex-grow和flex-shrink、flex-basis的简写，默认值为0 1 auto。
     11.align-self：允许单个项目与其他项目不一样的对齐方式，可以覆盖align-items，默认属性为auto，表示继承父元素的align-items
-    详情 [Markdown](http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html?utm_source=tuicool))
+    详情 http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html?utm_source=tuicool)
   
 ### 水平垂直居中
       1.已经子元素宽高
@@ -64,7 +64,16 @@
        3.flex 布局 
           justify-content: center  align-item: center
        4.table-cell
-
+       
+### 画一条0.5px的线
+       1.SVG
+       2.transform scale
+       3.meta viewport
+       
+### visibility=hidden, opacity=0，display:none 的区别
+        1.opacity = 0 页面会保留原来的位置 元素隐藏 如果有onclick事件还是会被触发
+        2.visibility = hidden 页面会保留原来的位置 元素隐藏 如果有onclick事件不会被触发
+        3.display = none  页面不会保留原来的位置 元素隐藏 如果有onclick不会触发
     
     
       
