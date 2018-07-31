@@ -14,7 +14,7 @@
     BFC的区域不会与float box重叠。
     BFC就是页面上的一个隔离的独立容器，容器里面的子元素不会影响到外面的元素。反之也如此。
     计算BFC的高度时，浮动元素也参与计算
-  - 参数BFC的条件
+  ###### 参数BFC的条件
     根元素 body
     position 为absolute或者fixed
     display 为 inline-block 、flex、table-cell
