@@ -63,7 +63,8 @@
           right:50%
           transform:translate(-50%,-50%)
       
-   ### flex 布局 justify-content: center  align-item: center
+   ### flex 布局 
+        justify-content: center  align-item: center
    ### table-cell
 
     
