@@ -1,11 +1,11 @@
 # About Something Web
 # CSS篇
 
-## 什么是盒模型
+### 什么是盒模型
   - 盒模型分为标准盒模型 width = content  和怪异盒模型(ie下) width = content + padding + border 
   - 通过box-sizing 可以切换  content-box padding-box boder-box 
   
-## 什么是BFC 
+### 什么是BFC 
   ###### BFC Box、Formatting Context 块级格式化上下文
   ###### BFC布局规则：
     内部的Box会在垂直方向，一个接一个地放置。
@@ -20,7 +20,7 @@
     display 为 inline-block 、flex、table-cell
     overflow 不为visiable
     
-## 清浮动
+### 清浮动
   1.overflowe：hidden
   2.父级定义伪类:after 和 zoom  (推荐)
     div:after{display:block,content:'',clear:both,visibility:hidden,height:0}
@@ -29,7 +29,7 @@
   4.父级定高
   5.父级一起浮动
   
-4.Flex 布局
+### Flex 布局
   1.dispaly:flex 子元素的float、clear和vertical-align属性将失效
   2.flex-direction: row | column | row-reverse | column-reverse 主轴方向
   3.flex-wrap: nowrap | wrap | warp-reverse 
@@ -43,7 +43,7 @@
   11.align-self：允许单个项目与其他项目不一样的对齐方式，可以覆盖align-items，默认属性为auto，表示继承父元素的align-items
   详情 http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html?utm_source=tuicool)
   
-5.水平垂直居中
+### 水平垂直居中
   1.已经子元素宽高
     position:absolute
     top:50%;
@@ -65,7 +65,6 @@
       
    3.flex 布局 justify-content: center  align-item: center
    4.table-cell
- 6.
 
     
     
