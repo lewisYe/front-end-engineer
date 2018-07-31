@@ -44,28 +44,28 @@
     详情 http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html?utm_source=tuicool)
   
 ### 水平垂直居中
-  #### 已经子元素宽高
-        position:absolute
-        top:50%;
-        left:50%;
-        margin-left:负的一半宽度,
-        margin-top:负的一半高度
-    
-  #### 未知子元素高度
-        1.position:absolute
-          top:0
-          left:0
-          right:0
-          bottom:0
-          margin auto
-         2.position:absolute
-          top:50%
-          right:50%
-          transform:translate(-50%,-50%)
-      
-   ### flex 布局 
-        justify-content: center  align-item: center
-   ### table-cell
+      1.已经子元素宽高
+            position:absolute
+            top:50%;
+            left:50%;
+            margin-left:负的一半宽度,
+            margin-top:负的一半高度
+
+      2.未知子元素高度
+            1.position:absolute
+              top:0
+              left:0
+              right:0
+              bottom:0
+              margin auto
+             2.position:absolute
+              top:50%
+              right:50%
+              transform:translate(-50%,-50%)
+
+       3.flex 布局 
+            justify-content: center  align-item: center
+       4.table-cell
 
     
     
