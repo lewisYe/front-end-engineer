@@ -2,8 +2,8 @@
 # CSS篇
 
 ### 什么是盒模型
-    盒模型分为标准盒模型 width = content  和怪异盒模型(ie下) width = content + padding + border 
-    通过box-sizing 可以切换  content-box padding-box boder-box 
+    1.盒模型分为标准盒模型 width = content  和怪异盒模型(ie下) width = content + padding + border 
+    2.通过box-sizing 可以切换  content-box padding-box boder-box 
   
 ### 什么是BFC 
   ###### BFC Box、Formatting Context 块级格式化上下文
