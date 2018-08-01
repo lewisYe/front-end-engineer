@@ -232,9 +232,71 @@
    ### 原型链
         两个原型之间通过__proto__来链接形成的链 就是原型链
         
-   ### 类的创建与继承
-        
-        
-        
-    
+   ### 类的创建与继承 ES5 和 ES6
+        1.类的创建
+            function Animal(name){
+                this.name = name || 'animal'
+                this.sleep = function(){
+                    console.log(this.name + 'is sleep')
+                }
+            }
+            Animal.prototype.eat = function(){
+                console.log(this.name +' is eating food')
+            }
+        2. 原型链基础
+            function Cat(){}
+            Cat.prototype = new Animal()
+            Cat.prototype.name = 'cat'
+            var cat = new Cat();
+            console.log(cat.name)// cat
+            console.lof(cat.sleep) // cat is sleep 
+            介绍：在这里我们可以看到new了一个空对象,这个空对象指向Animal并且Cat.prototype指向了这个空对象，这种就是基于原型链的继承。
+            特点：基于原型链，既是父类的实例，也是子类的实例
+            缺点：无法实现多继承
+         3. 构造继承：使用父类的构造函数来增强子类实例，等于是复制父类的实例属性给子类（没用到原型）
+            function Cat (name){
+                Animal.call(this);
+                this.name = name || 'Tom';
+            }
+            var cat = new Cat();
+            特点：可以实现多继承
+            缺点：只能继承父类实例的属性和方法，不能继承原型上的属性和方法。
+         4.组合继承：相当于构造继承和原型链继承的组合体。调用父类构造，继承父类的属性并保留传参的优点，然后通过将父类实例作为子类原型，实现函数复用
+            function Cat(name){
+                Animal.call(this)
+                this.name = name || 'Tom';
+            }
+            Cat.prototype = new Animal();
+            Cat.prototype.constructor = Cat;
+            var cat = new Cat();
+            特点：可以继承实例属性/方法，也可以继承原型属性/方法
+            缺点：调用了两次父类构造函数，生成了两份实例
+            
+         5.寄生组合继承：通过寄生方式，砍掉父类的实例属性，这样，在调用两次父类的构造的时候，就不会初始化两次实例方法/属性
+            function Cat (name){
+                Animal.call(this);
+                this.name = name || 'Tom';
+            }
+            (
+             function(){
+                var Super = function(){}
+                Super.prototype = Animal.Prototype
+                Cat.prototype = new Super();
+                
+             }
+            )()
+            var cat = new Cat();
+            
+          6.ES6 继承
+            class Animal(name){
+                constructor(name){
+                    this.name = name || 'aniaml'
+                }
+            }
+            class Cat extends Animal(){
+               
+            }
+            var cat = new Cat();
+            
+            
                 
