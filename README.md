@@ -167,5 +167,42 @@
         -webkit-box-orient 设置或检索伸缩盒对象的子元素的排列方式 。
         text-overflow: ellipsis 以用来多行文本的情况下，用省略号“…”隐藏超出范围的文本。
         
- 
-      
+
+# HTML篇
+  ### link 和 @import 区别
+        1.使用link引入 与页面加载时同时引入，@import 是等页面加载完成之后加载css
+        2.link 是html标签 无兼容问题，@import 具有兼容问题 不兼容低版本
+        3.link 支持JavaScript去改变样式，@import 不支持
+        4.link的权重大于@importd的权重
+        
+  ### HTML5 新增属性
+        新增加了图像、位置、存储、多任务等功能。
+        1.canvas
+        2.video,audio
+        3.本地存储 localStorage和sessionStorage
+            cookie、localStorage 和 sessionStorage 三者区别
+            共同点:都是存储在浏览器端，且是同源
+            区别点:
+                1.cookie是为了标识用户身份存储在用户本地的数据，始终在同源http请求中携带。即cookies在浏览器和服务器之间来回传递，而
+                localStorage和sessionStorage不会自动发给服务器，只是本地存在
+                2.存在大小不同 cookie 大小不超过4k localStorage 和 sessionStorage 最大可以达到5M
+                3.cookie 失效有时间限定 与设置的时间有关，sessionStorage是会话级别的存储 浏览器关闭就失效了，localStorage是长期存在的
+                4.作用域不同。cookie和localstorage在所有的同源窗口都是共享；sessionstorage不在不同的浏览器共享，即使同一页面
+         4.语义化标签 nav header footer section 等
+         5.位置API：Geolocation  navigator.geolocation
+         6.表单控件 calendar date time email url search
+         7.web worker 多线程
+             w=new Worker("demo_workers.js");
+             postMessage() 回传信息
+             onmessage 监听信息
+             terminate 关闭
+         8.拖放api
+         
+        移除的元素：
+        纯表现的元素：basefont big center font s strike tt u
+        性能较差元素：frame frameset noframes
+        
+        
+ # HTTP
+    
+                
