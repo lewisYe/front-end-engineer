@@ -391,12 +391,23 @@
         三、通过修改document.domain来跨子域
         四、window.name
         五、HTML5中window.postMessage
-           
-  ### ES6
-        一、let const 
-        二、箭头函数
-        三、spread 展开函数
-       
+          
   ### XSS 和 CSRF 
+    XSS, 即为（Cross Site Scripting）, 中文名为跨站脚本是发生在目标用户的浏览器层面上的，当渲染DOM树的过程成发生了不在预期内执行的JS代码时，
+    就发生了XSS攻击。
+    分为 反射行XSS 存储型XSS 和 DOM XSS
+    反射型XSS是在将XSS代码放在URL中，将参数提交到服务器。服务器解析后响应，在响应结果中存在XSS代码，最终通过浏览器解析执行。
+    存储型XSS是将XSS代码存储到服务端（数据库、内存、文件系统等），在下次请求同一个页面时就不需要带上XSS代码了，而是从服务器读取。
+    DOM XSS的发生主要是在JS中使用eval造成的，所以应当避免使用eval语句。
+    XSS危害有盗取用户cookie，通过JS或CSS改变样式，DDos造成正常用户无法得到服务器响应。
+    XSS代码的预防主要通过对数据解码，再过滤掉危险标签、属性和事件等。cookie 设置httpOnly
+    
+    CSRF
+    CSRF全程 Cross Site Request Forgery, 跨站域请求伪造
+    预防
+    http 请求头中的referer 验证 和 token
+        
+     
+    
        
         
