@@ -335,6 +335,25 @@
             Base.call(obj);
 
    ### 如何解决回调
-        promise、generator、async/await
-        
+        promise、generator、async/await 详情看es6
+        一 promise 
+           特点:
+            1.对象的状态不受外界影响 有三个状态 pending (进行中)、fulfilled（已成功）、rejected（已失败）
+            2.一旦状态改变，就不会再变，任何时候都可以得到这个结果
+           缺点:
+            1.无法取消Promise，一旦新建它就会立即执行，无法中途取消
+            2.如果不设置回调函数，Promise内部抛出的错误，不会反应到外部
+            3.当处于pending状态时，无法得知目前进展到哪一个阶段（刚刚开始还是即将完成）。
+           基本调用
+            var promise = new Promise(functiotn(resolve,reject){
+                if (/* 异步操作成功 */){
+                    resolve(value);
+                  } else {
+                    reject(error);
+                  }
+            })
+   ### 前端事件流
+       
+            
+           
         
