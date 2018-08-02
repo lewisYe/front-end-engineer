@@ -298,5 +298,43 @@
             }
             var cat = new Cat();
             
+ ### apply、call和bind 的区别 与原生实现
+        1.apply，call，bind 三者都可以改变this 的指向。
+        2.apply和call 第一个参数都是一样的表示要改变指向的那个对象 apply 第二个参数是个数组，call 第二个参数是arguments
+        3.通过bind改变this作用域会返回一个新的函数，这个函数不会马上执行。
+        
+        call 原生实现
+            Function.prototype.newCall = function(content,...params){
+                content.fn = this;
+                content.fn(...params);
+                delete content.fn
+            }
             
-                
+         apply 原生实现
+            Function.prototype.newApply = function(content,params){
+                content.fn = this;
+                content.fn(params);
+                delete content.fn
+            }
+            
+         bind 原生实现
+            Function.prototype.newBind = function(content,...innerParams){
+                var that = this;
+                return function(...finnalyParams){
+                    return that.call(content,...innerParams,...finnalyParams)
+                }
+            }
+    
+   ### new 操作符 实际干了什么
+        var obj = new Base();
+        1.首先内部新建了一个空对象
+            var obj = {}
+        2.然后将obj._proto_ 指向了 Base的原型 Base.prototype
+            obj.__proto__ = Base.prototype;
+        3.我们将Base函数对象的this指针替换成obj
+            Base.call(obj);
+
+   ### 如何解决回调
+        promise、generator、async/await
+        
+        
