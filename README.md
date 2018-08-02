@@ -353,7 +353,27 @@
                   }
             })
    ### 前端事件流
-       
+        Dom2级事件分为
+        事件捕获阶段
+        处于目标阶段
+        事件冒泡阶段
+        
+        1.dom2级事件 绑定函数
+            addEventListener 和 attachEvent 
+        
+            ele.addEventListener('click',function(){},false)
+            三个参数为 要处理的事件名、作为事件处理程序的函数和一个布尔值。 false为冒泡 true为捕获
+
+            ele.attachEvent('onclick',function(){})
+            多次绑定后执行的顺序是不一样的，attachEvent是后绑定先执行，addEventListener是先绑定先执行。
+
+        2. 利用事件冒泡的机制 可以来做事件委托 子元素的时间 委托给父元素 然后通过 e.target 来判断
+            e.target 和 e.currenTarget
             
-           
+            currenTarget 返回绑定事件的元素
+            target 返回触发事件的元素
+            
+         3.mouseover和mouseenter的区别
+            mouseover：当鼠标移入元素或其子元素都会触发事件，所以有一个重复触发，冒泡的过程。对应的移除事件是mouseout
+            mouseenter：当鼠标移除元素本身（不包含元素的子元素）会触发事件，也就是不会冒泡，对应的移除事件是mouseleave
         
