@@ -376,4 +376,27 @@
          3.mouseover和mouseenter的区别
             mouseover：当鼠标移入元素或其子元素都会触发事件，所以有一个重复触发，冒泡的过程。对应的移除事件是mouseout
             mouseenter：当鼠标移除元素本身（不包含元素的子元素）会触发事件，也就是不会冒泡，对应的移除事件是mouseleave
+            
+  ### 基本数据类型
+        NUll Number undefined boolen string symbol
+        
+  ### 跨域
+    为什么会跨域 是因为浏览器的同源策略的限制 域名 协议 端口号要相同
+    所有的跨域问题都需要后端协助解决
+        一、jsonp 跨域 
+            使用script 标签来引入一个js 文件  但是文件路径后面会带上一个callback 函数名 后端讲处理好的数据作为这个函数名的参数返回到前端 
+            加载页面的时候 会自动执行这个函数的
+            jsop 只适用于get请求
+        二、CORS
+        三、通过修改document.domain来跨子域
+        四、window.name
+        五、HTML5中window.postMessage
+           
+  ### ES6
+        一、let const 
+        二、箭头函数
+        三、spread 展开函数
+       
+  ### XSS 和 CSRF 
+       
         
