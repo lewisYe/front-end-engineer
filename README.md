@@ -442,6 +442,20 @@
     CSRF全程 Cross Site Request Forgery, 跨站域请求伪造
     预防
     http 请求头中的referer 验证 和 token
+   
+  ### 实现函数 fn(1)(2)(3)(4) = 10  (柯里化)
+  
+       function Currie(x){
+          let sum = x;
+          let tmp = function(y){
+            sum += y;
+            return tmp
+          }
+          tmp.toString = function(){
+            return sum;
+          }
+          return tmp;
+       }
         
      
     
