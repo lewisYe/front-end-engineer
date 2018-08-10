@@ -352,6 +352,25 @@
                     reject(error);
                   }
             })
+            
+   ### 函数防抖和函数节流
+        1.函数防抖
+            function debounce (fn,delay){
+                var timer = null;
+                return function(){
+                    clearTimeout(timer);
+                    var timer = setTimeout(()=>{
+                        fn()
+                    },delay)
+                }
+            }
+            
+            function foo(){
+                console.log('函数防抖')
+            }
+            
+            document.addEventListener('scroll',debounce(fn,200),false)
+            
    ### 前端事件流
         Dom2级事件分为
         事件捕获阶段
