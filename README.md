@@ -356,10 +356,10 @@
    ### 函数防抖和函数节流
         1.函数防抖
             function debounce (fn,delay){
-                var timer = null;
+                let timer = null;
                 return function(){
                     clearTimeout(timer);
-                    var timer = setTimeout(()=>{
+                    timer = setTimeout(()=>{
                         fn()
                     },delay)
                 }
@@ -370,6 +370,23 @@
             }
             
             document.addEventListener('scroll',debounce(fn,200),false)
+         2.函数节流
+            function throttle(fn,blank){
+                let timer,last;
+                let now = +new Date;
+                return function(){
+                    if(now&&last < last + blank){
+                        clearTimeout(timer);
+                        timer = setTimeout(()=>{
+                            fn();
+                            last = now;
+                        },blank)
+                    }else{
+                        fn();
+                        last = now;
+                    }
+                }
+            }
             
    ### 前端事件流
         Dom2级事件分为
