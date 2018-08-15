@@ -458,6 +458,8 @@
        }
         
      
+ # React篇
+    1.React.PropTypes 自 React v15.5 起已弃用。使用 prop-types 库代替。
     
        
         
