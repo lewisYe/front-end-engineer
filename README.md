@@ -463,8 +463,8 @@
         1.componetShouldUpdate 
             该生命周期默认返回的是true  当状态或者props 改变是都会更新 可以在该层处理 返回false 来控制  减少不必要的更新
         2.pureComponent
-            组件继承 app extends React.PureComponent pureComponent 是官方的api 也是对componentShouldUpdate这个生命周期
-            进行处理的 但是是浅比较 需要引入的的对比 可以引入三方库 Immutable.js 来处理
+            组件继承 class app extends React.PureComponent pureComponent 是官方的api 也是对componentShouldUpdate这个生命周期
+            进行处理的 但是是浅比较 需要深入的对状态改变的对比 可以引入三方库 Immutable.js 来处理
     
        
         
