@@ -414,7 +414,7 @@
             mouseenter：当鼠标移除元素本身（不包含元素的子元素）会触发事件，也就是不会冒泡，对应的移除事件是mouseleave
             
   ### 基本数据类型
-        NUll Number undefined boolen string symbol
+        Null Number Undefined Boolen String Symbol  复杂数据类型 Object  （主要大小写）
         
   ### 跨域
     为什么会跨域 是因为浏览器的同源策略的限制 域名 协议 端口号要相同
