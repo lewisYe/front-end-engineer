@@ -1,7 +1,19 @@
-# About Something Web
-# CSS篇
+# Personal experience of Front-end 
 
-### 什么是盒模型
+
+## Framework
+    * [React源码解析: 组件实现 (基本16版本)](https://github.com/lewisYe/front-end-engineer/issues/1)
+    * [React生命周期(16版本)](https://github.com/lewisYe/front-end-engineer/issues/2)
+## JS
+
+## Network、Browser
+
+## Compilation
+
+## HTML、CSS
+
+
+<!-- ### 什么是盒模型
     1.盒模型分为标准盒模型 width = content  和怪异盒模型(ie下) width = content + padding + border 
     2.通过box-sizing 可以切换  content-box padding-box boder-box 
   
@@ -467,4 +479,4 @@
             进行处理的 但是是浅比较 需要深入的对状态改变的对比 可以引入三方库 Immutable.js 来处理
     
        
-        
+         -->
