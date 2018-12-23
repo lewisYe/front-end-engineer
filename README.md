@@ -40,6 +40,8 @@
 * [develop a babel-plugin](https://github.com/lewisYe/front-end-engineer/issues/25)
 
 ## Other 
+* [微信小程序开发](https://github.com/lewisYe/front-end-engineer/issues/26)
+* [钉钉应用开发](https://github.com/lewisYe/front-end-engineer/issues/27)
 
 <!-- ### 什么是盒模型
     1.盒模型分为标准盒模型 width = content  和怪异盒模型(ie下) width = content + padding + border 
