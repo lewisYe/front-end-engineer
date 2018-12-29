@@ -40,6 +40,7 @@
 * [develop a babel-plugin](https://github.com/lewisYe/front-end-engineer/issues/25)
 
 ## Other 
+* [Linux基础知识与常用命令](https://github.com/lewisYe/front-end-engineer/issues/28)
 * [微信小程序开发](https://github.com/lewisYe/front-end-engineer/issues/26)
 * [钉钉应用开发](https://github.com/lewisYe/front-end-engineer/issues/27)
 
