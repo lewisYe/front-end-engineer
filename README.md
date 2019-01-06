@@ -27,10 +27,9 @@
  * [本地存储](https://github.com/lewisYe/front-end-engineer/issues/20)
  * [WebSocket](https://github.com/lewisYe/front-end-engineer/issues/21)
 ## Bundled
- * webpack
-    - [从零搭建 React 全家桶脚手架](https://github.com/lewisYe/front-end-engineer/issues/4)
- * gulp
-    - [gulp搭建本地服务](https://github.com/lewisYe/front-end-engineer/issues/22)
+ * [webpack从零搭建 React 全家桶脚手架](https://github.com/lewisYe/front-end-engineer/issues/4)
+ <!-- * gulp
+    - [gulp搭建本地服务](https://github.com/lewisYe/front-end-engineer/issues/22) -->
 
 ## HTML、CSS
  * [清楚浮动的几种方法](https://github.com/lewisYe/front-end-engineer/issues/23)
