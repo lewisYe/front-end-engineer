@@ -21,7 +21,7 @@
  * [Event loop](https://github.com/lewisYe/front-end-engineer/issues/16)
  * [浏览器渲染机制](https://github.com/lewisYe/front-end-engineer/issues/17)
  * [解决跨域](https://github.com/lewisYe/front-end-engineer/issues/18)
- * [http and https](https://github.com/lewisYe/front-end-engineer/issues/19)
+ * [HTTP协议](https://github.com/lewisYe/front-end-engineer/issues/19)
  * [本地存储](https://github.com/lewisYe/front-end-engineer/issues/20)
  * [WebSocket](https://github.com/lewisYe/front-end-engineer/issues/21)
 ## Bundled
