@@ -28,8 +28,8 @@
  * [webpack从零搭建 React 全家桶脚手架](https://github.com/lewisYe/front-end-engineer/issues/4)
 
 ## HTML、CSS
- * [清楚浮动的几种方法](https://github.com/lewisYe/front-end-engineer/issues/23)
- * [常见的几种布局实现](https://github.com/lewisYe/front-end-engineer/issues/24)
+ * [那些必须需要知道的CSS知识](https://github.com/lewisYe/front-end-engineer/issues/23)
+ <!-- * [常见的几种布局实现](https://github.com/lewisYe/front-end-engineer/issues/24) -->
 
 ## Development plugin
 * [develop a babel-plugin](https://github.com/lewisYe/front-end-engineer/issues/25)
