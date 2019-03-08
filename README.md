@@ -17,19 +17,19 @@
  * [事件机制](https://github.com/lewisYe/front-end-engineer/issues/14)
 
 ## Network、Browser
- * [浏览器缓存](https://github.com/lewisYe/front-end-engineer/issues/15)
- * [Event loop](https://github.com/lewisYe/front-end-engineer/issues/16)
  * [浏览器渲染机制](https://github.com/lewisYe/front-end-engineer/issues/17)
- * [解决跨域](https://github.com/lewisYe/front-end-engineer/issues/18)
+ * [浏览器缓存](https://github.com/lewisYe/front-end-engineer/issues/15)
+ * [浏览器本地存储](https://github.com/lewisYe/front-end-engineer/issues/20)
+ * [解决浏览器跨域问题](https://github.com/lewisYe/front-end-engineer/issues/18)
  * [HTTP协议](https://github.com/lewisYe/front-end-engineer/issues/19)
- * [本地存储](https://github.com/lewisYe/front-end-engineer/issues/20)
+ * [深入浅出JavaScript运行机制](https://github.com/lewisYe/front-end-engineer/issues/16)
+ * [理解JavaScript预解析](https://github.com/lewisYe/front-end-engineer/issues/24)
  * [WebSocket](https://github.com/lewisYe/front-end-engineer/issues/21)
 ## Bundled
  * [webpack从零搭建 React 全家桶脚手架](https://github.com/lewisYe/front-end-engineer/issues/4)
 
 ## HTML、CSS
  * [那些必须需要知道的CSS知识](https://github.com/lewisYe/front-end-engineer/issues/23)
- <!-- * [常见的几种布局实现](https://github.com/lewisYe/front-end-engineer/issues/24) -->
 
 ## Development plugin
 * [develop a babel-plugin](https://github.com/lewisYe/front-end-engineer/issues/25)
