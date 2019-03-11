@@ -15,12 +15,15 @@
  * [函数的防抖与节流](https://github.com/lewisYe/front-end-engineer/issues/12)
  * [函数的柯里化](https://github.com/lewisYe/front-end-engineer/issues/13)
  * [事件机制](https://github.com/lewisYe/front-end-engineer/issues/14)
+ * [JS垃圾回收机制](https://github.com/lewisYe/front-end-engineer/issues/30)
+ * [需要掌握的JS基础知识](https://github.com/lewisYe/front-end-engineer/issues/31)
 
 ## Network、Browser
  * [浏览器渲染机制](https://github.com/lewisYe/front-end-engineer/issues/17)
  * [浏览器缓存](https://github.com/lewisYe/front-end-engineer/issues/15)
  * [浏览器本地存储](https://github.com/lewisYe/front-end-engineer/issues/20)
- * [解决浏览器跨域问题](https://github.com/lewisYe/front-end-engineer/issues/18)
+ * [浏览器跨域问题](https://github.com/lewisYe/front-end-engineer/issues/18)
+ * [浏览器安全问题](https://github.com/lewisYe/front-end-engineer/issues/29)
  * [HTTP协议](https://github.com/lewisYe/front-end-engineer/issues/19)
  * [深入浅出JavaScript运行机制](https://github.com/lewisYe/front-end-engineer/issues/16)
  * [理解JavaScript预解析](https://github.com/lewisYe/front-end-engineer/issues/24)
