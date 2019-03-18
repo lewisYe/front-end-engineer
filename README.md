@@ -27,9 +27,10 @@
  * [HTTP协议](https://github.com/lewisYe/front-end-engineer/issues/19)
  * [深入浅出JavaScript运行机制](https://github.com/lewisYe/front-end-engineer/issues/16)
  * [理解JavaScript预解析](https://github.com/lewisYe/front-end-engineer/issues/24)
- * [WebSocket](https://github.com/lewisYe/front-end-engineer/issues/21)
 ## Bundled
  * [webpack从零搭建 React 全家桶脚手架](https://github.com/lewisYe/front-end-engineer/issues/4)
+ * [实现一个webpack plugin](https://github.com/lewisYe/front-end-engineer/issues/21)
+ * [webpack性能优化](https://github.com/lewisYe/front-end-engineer/issues/32)
 
 ## HTML、CSS
  * [那些必须需要知道的CSS知识](https://github.com/lewisYe/front-end-engineer/issues/23)
