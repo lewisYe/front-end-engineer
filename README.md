@@ -11,7 +11,7 @@
  * [根据Promise/A+规范实现 Promise](https://github.com/lewisYe/front-end-engineer/issues/7)
  * [深入原型和原型链](https://github.com/lewisYe/front-end-engineer/issues/9)
  * [深入继承](https://github.com/lewisYe/front-end-engineer/issues/10)
- * [深入 call、apply、bind](https://github.com/lewisYe/front-end-engineer/issues/11) 
+ * [深入 call、apply、bind、new、深浅拷贝等](https://github.com/lewisYe/front-end-engineer/issues/11) 
  * [函数的防抖与节流](https://github.com/lewisYe/front-end-engineer/issues/12)
  * [函数的柯里化](https://github.com/lewisYe/front-end-engineer/issues/13)
  * [事件机制](https://github.com/lewisYe/front-end-engineer/issues/14)
