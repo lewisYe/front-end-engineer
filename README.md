@@ -43,4 +43,5 @@
 * [Linux基础知识与常用命令](https://github.com/lewisYe/front-end-engineer/issues/28)
 * [微信小程序开发](https://github.com/lewisYe/front-end-engineer/issues/26)
 * [钉钉应用开发](https://github.com/lewisYe/front-end-engineer/issues/27)
+* [常见的几种排序算法](https://github.com/lewisYe/front-end-engineer/issues/34)
 
