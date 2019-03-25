@@ -5,7 +5,7 @@
  * [React源码解析: 组件实现 (基本16版本)](https://github.com/lewisYe/front-end-engineer/issues/1)
  * [React生命周期(16版本)](https://github.com/lewisYe/front-end-engineer/issues/2)
  * [React Advanced Guides](https://github.com/lewisYe/front-end-engineer/issues/3)
- * [Redux概念理解](https://github.com/lewisYe/front-end-engineer/issues/5) 
+ * [Redux概念理解](https://github.com/lewisYe/front-end-engineer/issues/33) 
  * [Redux源码分析](https://github.com/lewisYe/front-end-engineer/issues/5) 
  * [React-router v4 源码解析](https://github.com/lewisYe/front-end-engineer/issues/6)
 ## JS
