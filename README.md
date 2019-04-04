@@ -8,6 +8,7 @@
  * [Redux概念理解](https://github.com/lewisYe/front-end-engineer/issues/33) 
  * [Redux源码分析](https://github.com/lewisYe/front-end-engineer/issues/5) 
  * [React-router v4 源码解析](https://github.com/lewisYe/front-end-engineer/issues/6)
+ * [实现一个简单的 Virtual Dom](https://github.com/lewisYe/react-virtual-dom)
 ## JS
  * [根据Promise/A+规范实现 Promise](https://github.com/lewisYe/front-end-engineer/issues/7)
  * [深入原型和原型链](https://github.com/lewisYe/front-end-engineer/issues/9)
