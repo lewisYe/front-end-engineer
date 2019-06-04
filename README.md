@@ -45,4 +45,5 @@
 * [微信小程序开发](https://github.com/lewisYe/front-end-engineer/issues/26)
 * [钉钉应用开发](https://github.com/lewisYe/front-end-engineer/issues/27)
 * [常见的几种排序算法](https://github.com/lewisYe/front-end-engineer/issues/34)
+* [Mac vultr搭建ss教程](https://github.com/lewisYe/front-end-engineer/issues/35)
 
